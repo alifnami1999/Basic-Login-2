@@ -1,22 +1,22 @@
 
 let dbUsers = [
     {
-        username: "nur",
-        password: "123456",
-        name: "Nur",
-        email: "nurfarahizzati3@gmail.com"
+        username: "Alif",
+        password: "1234",
+        name: "Alif",
+        email: "Alif@utem.edu.my"
     },
     {
-        username: "farah",
-        password: "654321",
-        name: "Farah",
-        email: "fafafarah0607@gmail.com"
+        username: "Azriana",
+        password: "98765",
+        name: "Azriana",
+        email: "Azriana@gmail.com"
     },
     {
-        username: "izzati",
+        username: "Haikal",
         password: "7890",
-        name: "Izzati",
-        email: "farah06@gmail.com"
+        name: "Haikal",
+        email: "Haikal@gmail.com"
     }
 ]
 function login(username, password) {
@@ -41,9 +41,9 @@ function login(username, password) {
     }
 
 //try to login
-console.log(login("nur","123456"))             //cout
-console.log(login("farah","6541"))
+console.log(login("Alif","1234"))             //cout
+console.log(login("Haikal","98765"))
 console.log(login("utem","password"))
 
-register("awin","150700","Awin","awincomel@gmail.com")
-console.log(login("awin","150700"))
+register("Hawari","4563","Wari","Hawari@gmail.com")
+console.log(login("Hawari","4563"))
